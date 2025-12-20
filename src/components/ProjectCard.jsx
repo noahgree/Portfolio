@@ -22,7 +22,7 @@ export default function ProjectCard({ project }) {
 
         <div className="mt-2 flex flex-wrap gap-2">
           {project.tech.map((t) => (
-            <span key={t} className="badge badge-outline">
+            <span key={t} className="badge badge-soft">
               {t}
             </span>
           ))}
@@ -31,7 +31,7 @@ export default function ProjectCard({ project }) {
         <div className="card-actions mt-4 justify-end">
           {project.links.repo ? (
             <a
-              className="btn btn-sm btn-soft"
+              className="btn btn-sm btn-soft btn-info"
               href={project.links.repo}
               target="_blank"
               rel="noreferrer"
@@ -41,7 +41,7 @@ export default function ProjectCard({ project }) {
           ) : null}
           {project.links.demo ? (
             <a
-              className="btn btn-sm btn-primary"
+              className="btn btn-sm btn-success btn-soft"
               href={project.links.demo}
               target="_blank"
               rel="noreferrer"

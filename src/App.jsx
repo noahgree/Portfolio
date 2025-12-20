@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import Projects from "./components/Projects"
+import Education from "./components/Education"
 
 function App() {
   return (
@@ -10,6 +11,10 @@ function App() {
       <main>
         <section id="top">
           <Hero />
+        </section>
+
+        <section id="education" className="mx-auto max-w-5xl px-4 py-12">
+          <Education />
         </section>
 
         <section id="projects" className="mx-auto max-w-5xl px-4 py-12">
