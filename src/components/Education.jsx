@@ -4,7 +4,7 @@ export default function Education() {
       <div className="flex items-end justify-between gap-4">
         <div>
           <h2 className="text-2xl font-semibold">Education</h2>
-          <p className="mt-3 max-w-2xl opacity-80">Bachelor's of Science in Computer Science, Georgia Institute of Technology.</p>
+          <p className="mt-3 max-w-2xl opacity-80">Bachelor's of Science in Computer Science (2026), Georgia Institute of Technology.</p>
         </div>
       </div>
 

@@ -6,21 +6,19 @@ export default function ProjectCard({ project }) {
   const imgAlt = `${project.title} preview`
 
   return (
-    <div className="card card-side card-border bg-base-200">
-      <figure className="w-28 shrink-0 sm:w-40">
-        <img
-          src={imgSrc}
-          alt={imgAlt}
-          className="h-full w-full object-cover"
-          loading="lazy"
-        />
+    <div className="card card-side card-border bg-base-200 items-stretch">
+      <figure
+        className="w-28 sm:w-40 self-stretch overflow-hidden bg-cover bg-top bg-no-repeat shrink-0"
+        style={{ backgroundImage: `url(${imgSrc})` }}
+        aria-label={imgAlt}
+      >
       </figure>
 
       <div className="card-body">
         <h3 className="card-title">{project.title}</h3>
-        <p className="opacity-80">{project.description}</p>
+        <p className="opacity-80 grow-0">{project.description}</p>
 
-        <div className="mt-2 flex flex-wrap gap-2">
+        <div className="mt-2 flex flex-wrap gap-2 grow">
           {project.tech.map((t) => (
             <span key={t} className="badge badge-soft">
               {t}
@@ -47,6 +45,16 @@ export default function ProjectCard({ project }) {
               rel="noreferrer"
             >
               Demo
+            </a>
+          ) : null}
+          {project.links.product ? (
+            <a
+              className="btn btn-sm btn-secondary btn-soft"
+              href={project.links.product}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Product Page
             </a>
           ) : null}
         </div>
