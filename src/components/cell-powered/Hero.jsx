@@ -4,10 +4,10 @@ import { titleCN } from "../../Reusable/typography";
 
 export default function Hero() {
    return (
-      <div className="flex flex-col items-center justify-center h-[60vh] min-h-175 gap-8">
+      <div className="flex flex-col items-center justify-center h-[60vh] min-h-150 gap-6">
          <img src={DarkIcon}
          alt="Cell Powered Icon (dark)"
-         className="h-24 rotate-6 drop-shadow-green-400/70 drop-shadow-xl mb-10" />
+         className="h-24 rotate-6 drop-shadow-green-400/50 drop-shadow-sm mb-8" />
 
          <h1 className={`${titleCN} text-5xl sm:text-7xl`}>
             Cell Powered
