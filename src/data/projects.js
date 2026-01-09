@@ -51,11 +51,20 @@ export const projects = [
    },
    {
       title: "SchedulerApp",
-      description: "An Android app made for simple, no-bloat scheduling and assignment tracking.",
+      description: "An Android app made for simple, no-bloat class scheduling and assignment tracking.",
       tech: ["Kotlin", "Android Studio"],
       imageSrc: cellPoweredImg,
       links: {
          repo: "https://github.com/davis-haden/SchedulerApp"
+      },
+   },
+   {
+      title: "This Site",
+      description: "My project and education portfolio.",
+      tech: ["React", "Tailwind"],
+      imageSrc: cellPoweredImg,
+      links: {
+         
       },
    },
 ]
