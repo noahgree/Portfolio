@@ -12,31 +12,6 @@
    }
 }
 
-@layer base {
-   html.page-home,
-   body.page-home {
-      background-color: var(--color-base-100);
-      color: var(--color-base-content);
-   }
-
-   html.page-cell-powered,
-   body.page-cell-powered {
-      background-color: #000;
-      color: #fff;
-   }
-
-   body.page-cell-powered::after {
-      inset: -50%;
-      background-image: url("assets/noise.svg");
-      content: "";
-      background-repeat: repeat;
-      opacity: 0.15;
-      position: fixed;
-      pointer-events: none;
-      z-index: 9999;
-   }
-}
-
 @layer utilities {
    .grain {
       background-color: #66666e;
