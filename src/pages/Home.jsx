@@ -4,7 +4,7 @@ import Projects from "../components/Projects"
 
 export default function Home() {
    return (
-      <main className="grain">
+      <main>
          <div className="bg-base-100">
             <section id="top">
                <Hero />
