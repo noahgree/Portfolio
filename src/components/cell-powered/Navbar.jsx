@@ -14,7 +14,7 @@ export default function Navbar() {
                </a>
             </div>
             <div className="navbar-end mx-1">
-               <a className="btn rounded-4xl btn-soft glass hover:bg-green-400/10 hidden sm:inline-flex backdrop-blur-lg">
+               <a className="btn rounded-4xl btn-soft glass hover:bg-green-400/10 hidden sm:inline-flex">
                   <AppleIcon size={18}/>
                   Download Now
                </a>

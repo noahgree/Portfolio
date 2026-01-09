@@ -14,17 +14,17 @@
 
 @layer utilities {
    .grain {
-      background-color: '#66666e';
+      background-color: #66666e;
+      position: relative;
    }
    .grain:after {
+      inset: -50%;
       background-image: url('https://grainy-gradients.vercel.app/noise.svg');
       content: "";
-      height: 200%;
-      width: 200%;
-      left: -100%;
-      top: -100%;
+      background-repeat: repeat;
       opacity: 0.15;
       position: fixed;
-      z-index: 100;
+      pointer-events: none;
+      z-index: 9999;
    }
 }
