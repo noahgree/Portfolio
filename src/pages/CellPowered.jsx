@@ -1,12 +1,12 @@
-import { Link } from "react-router-dom";
+import Navbar from "../components/cell-powered/Navbar"
+import Hero from "../components/cell-powered/Hero"
 
 export default function CellPowered() {
   return (
     <div className="min-h-screen bg-black">
-      <main className="mx-auto max-w-5xl px-4 py-10">
-        <div className="breadcrumbs text-sm">
-          <h1 className="text-7xl sm:text-8xl">Cell Powered</h1>
-        </div>
+      <main className="mx-auto max-w-4xl px-4 py-10 min-h-screen bg-black">
+        <Navbar />
+        <Hero />
       </main>
     </div>
   );

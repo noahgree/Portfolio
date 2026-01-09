@@ -60,11 +60,11 @@ export const projects = [
    },
    {
       title: "This Site",
-      description: "My project and education portfolio.",
-      tech: ["React", "Tailwind"],
+      description: "My project and education portfolio. This site also hosts the product page for my MacOS Menubar app (seen above).",
+      tech: ["React", "Tailwind", "DasiyUI"],
       imageSrc: cellPoweredImg,
       links: {
-         
+         repo: "https://github.com/noahgree/Portfolio"
       },
    },
 ]
