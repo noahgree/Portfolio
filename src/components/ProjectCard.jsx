@@ -1,19 +1,6 @@
 export default function ProjectCard({ project }) {
-  const imgSrc =
-    project.imageSrc ??
-    `https://picsum.photos/seed/${encodeURIComponent(project.title)}/600/600`
-
-  const imgAlt = `${project.title} preview`
-
   return (
-    <div className="card card-side card-border bg-base-200 items-stretch">
-      <figure
-        className="w-28 sm:w-40 self-stretch overflow-hidden bg-cover bg-top bg-no-repeat shrink-0"
-        style={{ backgroundImage: `url(${imgSrc})` }}
-        aria-label={imgAlt}
-      >
-      </figure>
-
+    <div className="card card-border bg-base-200 items-stretch">
       <div className="card-body">
         <h3 className="card-title">{project.title}</h3>
         <p className="opacity-80 grow-0">{project.description}</p>

@@ -1,16 +1,15 @@
 export default function Education() {
   return (
-    <div>
-      <div className="flex items-end justify-between gap-4">
-        <div>
-          <h2 className="text-2xl font-semibold">Education</h2>
-          <p className="mt-3 max-w-2xl opacity-80">Bachelor's of Science in Computer Science (2026), Georgia Institute of Technology.</p>
-        </div>
+   <div>
+      <h2 className="text-2xl font-semibold">Education</h2>
+      <div className="card card-border mt-6 bg-base-200 items-stretch">
+         <div className="card-body">
+            <h3 className="card-title">The Georgia Institute of Technology</h3>
+            <p className="mb-6 opacity-80 grow-0">Bachelor's of Science in Computer Science (Candidate for May 2026)</p>
+            <p className="card-title">Wheeler High School</p>
+            <p className="opacity-80 grow-0">Magnet Program (2022)</p>
+         </div>
       </div>
-
-      <div className="mt-6 grid gap-4 sm:grid-cols-2">
-
-      </div>
-    </div>
+   </div>
   )
 }
