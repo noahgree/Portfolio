@@ -26,8 +26,8 @@
    /* Mobile: reduce tile size + opacity so it doesn’t look chunky */
    @media (max-width: 640px) {
       .grain-bg {
-         --grain-size: 35px;
-         --grain-opacity: 0.18;
+         --grain-size: 30px;
+         --grain-opacity: 0.1;
       }
    }
 
