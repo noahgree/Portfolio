@@ -17,6 +17,18 @@
       position: relative;
       overflow: hidden;
       isolation: isolate;
+
+      /* defaults (desktop-ish) */
+      --grain-size: 65px;
+      --grain-opacity: 0.2;
+   }
+
+   /* Mobile: reduce tile size + opacity so it doesn’t look chunky */
+   @media (max-width: 640px) {
+      .grain-bg {
+         --grain-size: 35px;
+         --grain-opacity: 0.18;
+      }
    }
 
    .grain-bg::before {
@@ -26,8 +38,8 @@
       pointer-events: none;
       background-repeat: repeat;
 
-      background-size: var(--grain-size, 80px);
-      opacity: var(--grain-opacity, 0.21);
+      background-size: var(--grain-size);
+      opacity: var(--grain-opacity);
 
       z-index: 0;
 
