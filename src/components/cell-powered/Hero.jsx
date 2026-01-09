@@ -7,9 +7,9 @@ export default function Hero() {
       <div className="flex flex-col h-[75vh] items-center justify-center min-h-125 gap-8">
          <img src={DarkIcon}
          alt="Cell Powered Icon (dark)"
-         className="h-25 rotate-6 drop-shadow-green-400/70 drop-shadow-xl mb-10" />
+         className="h-24 rotate-6 drop-shadow-green-400/70 drop-shadow-xl mb-10" />
 
-         <h1 className={`${titleCN} text-6xl sm:text-7xl`}>
+         <h1 className={`${titleCN} text-5xl sm:text-7xl`}>
             Cell Powered
          </h1>
          <h3 className="text-2xl opacity-70 text-center">
