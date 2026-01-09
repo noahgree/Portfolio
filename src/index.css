@@ -19,7 +19,7 @@
    }
    .grain:after {
       inset: -50%;
-      background-image: url('https://grainy-gradients.vercel.app/noise.svg');
+      background-image: url("assets/noise.svg");
       content: "";
       background-repeat: repeat;
       opacity: 0.15;
