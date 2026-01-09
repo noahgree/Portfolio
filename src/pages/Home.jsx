@@ -4,8 +4,8 @@ import Projects from "../components/Projects"
 
 export default function Home() {
    return (
-      <>
-         <main>
+      <main className="grain">
+         <div className="bg-base-100">
             <section id="top">
                <Hero />
             </section>
@@ -17,7 +17,7 @@ export default function Home() {
             <section id="projects" className="mx-auto max-w-4xl px-4 py-6">
                <Projects />
             </section>
-         </main>
-      </>
+         </div>
+      </main>
    );
 }

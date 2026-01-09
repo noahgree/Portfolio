@@ -36,7 +36,7 @@ export default function ProjectCard({ project }) {
           ) : null}
           {project.links.product ? (
             <a
-              className="btn btn-sm btn-secondary btn-soft"
+              className="btn btn-sm btn-success btn-soft"
               href={project.links.product}
               target="_blank"
               rel="noreferrer"
