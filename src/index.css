@@ -1,7 +1,9 @@
 @import "tailwindcss";
 @plugin "daisyui" {
    themes: dark --prefersdark;
+   exclude: rootcolor;
 }
+
 
 @layer base {
    html,
