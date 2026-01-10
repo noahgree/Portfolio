@@ -22,12 +22,12 @@ export default function Content() {
                <div className="carousel-item">
                   <img
                      src={Dark1}
-                     className="rounded-box object-contain" />
+                     className="rounded-box object-cover" />
                </div>
                <div className="carousel-item">
                   <img
                      src={Dark2}
-                     className="rounded-box object-contain" />
+                     className="rounded-box object-cover" />
                </div>
                <div className="carousel-item">
                   <img
