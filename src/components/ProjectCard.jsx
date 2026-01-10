@@ -41,7 +41,7 @@ export default function ProjectCard({ project }) {
               target="_blank"
               rel="noreferrer"
             >
-              Product Page
+              Site
             </a>
           ) : null}
         </div>
