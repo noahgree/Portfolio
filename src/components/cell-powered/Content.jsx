@@ -15,19 +15,19 @@ export default function Content() {
       <div className="gap-10 max-w-4xl mx-auto">
          <div className="grid grid-cols-1 gap-8 m-8">
             <div>
-               <img src={mainImage} alt="Hero Image" className="rounded"></img>
+               <img src={mainImage} alt="Hero Image" className="rounded-box"></img>
             </div>
 
-            <div className="carousel rounded-box space-x-4 p-4 h-120">
+            <div className="carousel rounded-box space-x-4 p-4 h-90 sm:h-120">
                <div className="carousel-item">
                   <img
                      src={Dark1}
-                     className="rounded-box" />
+                     className="rounded-box object-contain" />
                </div>
                <div className="carousel-item">
                   <img
                      src={Dark2}
-                     className="rounded-box" />
+                     className="rounded-box object-contain" />
                </div>
                <div className="carousel-item">
                   <img
