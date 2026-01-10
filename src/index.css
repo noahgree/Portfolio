@@ -6,7 +6,6 @@
 @layer base {
    html,
    body {
-      @apply overscroll-none;
       font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", system-ui, sans-serif;
    }
 }
