@@ -12,13 +12,13 @@ import Light5 from "../../assets/cell-powered/background-solo/Light5.png"
 
 export default function Content() {
    return (
-      <div className="flex flex-col max-w-4xl mx-auto">
-         <div className="m-8">
+      <div className="gap-10 max-w-4xl mx-auto">
+         <div className="grid grid-cols-1 gap-8 m-8">
             <div>
                <img src={mainImage} alt="Hero Image" className="rounded"></img>
             </div>
 
-            <div className="carousel carousel-center rounded-box space-x-4 p-4 h-120">
+            <div className="carousel rounded-box space-x-4 p-4 h-120">
                <div className="carousel-item">
                   <img
                      src={Dark1}
