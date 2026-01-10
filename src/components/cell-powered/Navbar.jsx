@@ -14,11 +14,17 @@ export default function Navbar() {
                </a>
             </div>
             <div className="navbar-end mx-1">
-               <a className="btn rounded-4xl btn-soft glass hover:bg-green-400/10 hidden sm:inline-flex">
+               <a
+               className="btn rounded-4xl btn-soft glass hover:bg-apple-green/12 hidden sm:inline-flex"
+               href="https://github.com/noahgree/cellpowered-updates/releases/latest/download/Cell.Powered.dmg"
+               >
                   <AppleIcon size={18}/>
                   Download Now
                </a>
-               <a className="btn btn-circle btn-soft glass hover:bg-green-400/10 sm:hidden backdrop-blur-lg">
+               <a
+               className="btn btn-circle btn-soft glass hover:bg-apple-green/12 sm:hidden"
+               href="https://github.com/noahgree/cellpowered-updates/releases/latest/download/Cell.Powered.dmg"
+               >
                   <DownloadIcon size={18}/>
                </a>
             </div>

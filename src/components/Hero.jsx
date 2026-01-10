@@ -1,4 +1,4 @@
-import GitHubIcon from "../assets/github-mark.svg?react"
+import noahSnowImg from "../assets/noahsnow.png"
 
 export default function Hero() {
    return (
@@ -7,8 +7,8 @@ export default function Hero() {
             <div className="avatar w-48">
                <div className="rounded">
                   <img
-                     src="/noahsnow.png"
-                     alt="Profile avatar"
+                     src={noahSnowImg}
+                     alt="Profile Image"
                      className="h-full w-full object-cover"
                   />
                </div>

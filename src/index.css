@@ -11,18 +11,24 @@
 }
 
 @layer utilities {
-   .grain {
-      background-color: #66666e;
-      position: relative;
+   @media (min-width: 640px) {
+      .grain {
+         background-color: #66666e;
+         position: relative;
+      }
+      .grain:after {
+         inset: -50%;
+         background-image: url("assets/noise.svg");
+         content: "";
+         background-repeat: repeat;
+         opacity: 0.15;
+         position: fixed;
+         pointer-events: none;
+         z-index: 9999;
+      }
    }
-   .grain:after {
-      inset: -50%;
-      background-image: url("assets/noise.svg");
-      content: "";
-      background-repeat: repeat;
-      opacity: 0.15;
-      position: fixed;
-      pointer-events: none;
-      z-index: 9999;
-   }
+}
+
+@theme {
+   --color-apple-green: #31D158
 }
