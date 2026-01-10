@@ -5,7 +5,7 @@ import BodyClassHelper from "../components/BodyClassHelper";
 export default function CellPowered() {
   return (
     <>
-      <BodyClassHelper className="bg-blue-700" />
+      <BodyClassHelper className="bg-black" />
       <div className="grain">
         <main className="mx-auto max-w-4xl px-4 py-10 min-h-screen bg-black">
           <Navbar />

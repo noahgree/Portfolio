@@ -6,7 +6,7 @@ import BodyClassHelper from "../components/BodyClassHelper";
 export default function Home() {
    return (
       <>
-         <BodyClassHelper className="bg-red-400"/>
+         <BodyClassHelper className="bg-base-100"/>
          <main className="grain">
             <div className="bg-base-100">
                <section id="top">
