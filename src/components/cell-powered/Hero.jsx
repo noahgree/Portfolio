@@ -8,13 +8,13 @@ export default function Hero() {
       <div className="flex flex-col items-center justify-center h-[60vh] min-h-150 gap-6 sm:gap-10">
          <img src={DarkIcon}
          alt="Cell Powered Icon (dark)"
-         className="h-24 rotate-6 drop-shadow-apple-green/50 drop-shadow-sm mb-8" />
+         className="h-24 rotate-6 drop-shadow-white/10 drop-shadow-md mb-8" />
 
          <h1 className={`${titleCN} text-5xl sm:text-7xl`}>
             Cell Powered
          </h1>
          <h3 className="text-xl opacity-70 text-center">
-            Keep an eye on your MacBook's battery.
+            Keep an eye on your MacBook's battery – in style.
          </h3>
 
          <a

@@ -1,14 +1,9 @@
-import spotifyWrappedImg from "../assets/spotify_wrap_temp.png"
-import mLImg from "../assets/ml_temp.png"
-import stormscapeImg from "../assets/stormscape_char.png"
-import cellPoweredImg from "../assets/cell_powered_temp.png"
-
 export const projects = [
    {
       title: "Spotify Wrapped App",
       description: "An Android app that recreates a Spotify Wrapped-style experience, talking to the Spotify API for real-time data.",
       tech: ["Kotlin", "Android Studio"],
-      imageSrc: spotifyWrappedImg,
+      imageSrc: "",
       links: {
          repo: "https://github.com/noahgree/SpotifyWrapped",
       },
@@ -17,7 +12,7 @@ export const projects = [
       title: "ML Liver Cancer Prediction",
       description: "Built and evaluated several machine learning models from scratch to predict liver cancer risk using publicly available data.",
       tech: ["Python", "NumPy", "Matplotlib"],
-      imageSrc: mLImg,
+      imageSrc: "",
       links: {
          repo: "https://github.com/noahgree/ml-liver-cancer",
       },
@@ -26,7 +21,7 @@ export const projects = [
       title: "Stormscape",
       description: "Top-down, open-world pixel art shooter game built in Godot. Explore, craft, and defend your base from the creatures of the mist.",
       tech: ["GDScript", "Godot", "GLSL"],
-      imageSrc: stormscapeImg,
+      imageSrc: "",
       links: {
          repo: "https://github.com/noahgree/StormScape",
       },
@@ -35,7 +30,7 @@ export const projects = [
       title: "Cell Powered",
       description: "Stylized battery monitoring app that lives in your MacOS menubar. Built using SwiftUI for a native experience.",
       tech: ["Swift", "Xcode"],
-      imageSrc: cellPoweredImg,
+      imageSrc: "",
       links: {
          product: "/cell-powered"
       },
@@ -44,7 +39,7 @@ export const projects = [
       title: "SoloMe",
       description: "SwiftUI GroupMe client for viewing messages in a farmiliar iOS style. Includes a custom backend server for generating Apple Push Notifications from GroupMe events.",
       tech: ["Swift", "Python", "Xcode", "Heroku", "REST"],
-      imageSrc: cellPoweredImg,
+      imageSrc: "",
       links: {
          repo: "https://github.com/noahgree/SoloMe"
       },
@@ -53,7 +48,7 @@ export const projects = [
       title: "SchedulerApp",
       description: "An Android app made for simple, no-bloat class scheduling and assignment tracking.",
       tech: ["Kotlin", "Android Studio"],
-      imageSrc: cellPoweredImg,
+      imageSrc: "",
       links: {
          repo: "https://github.com/davis-haden/SchedulerApp"
       },
@@ -62,7 +57,7 @@ export const projects = [
       title: "This Site",
       description: "My project and education portfolio. This site also hosts the product page for my MacOS Menubar app (seen above).",
       tech: ["React", "Tailwind", "DasiyUI"],
-      imageSrc: cellPoweredImg,
+      imageSrc: "",
       links: {
          repo: "https://github.com/noahgree/Portfolio"
       },
