@@ -6,7 +6,7 @@ import BodyClassHelper from "../components/BodyClassHelper";
 export default function Home() {
    return (
       <>
-         <BodyClassHelper className="bg-base-100" title="RNG's Portfolio" />
+         <BodyClassHelper className="bg-base-100" title="RNG's Portfolio" icon="/github-mark.svg" />
          <main className="grain">
             <div className="bg-base-100">
                <section id="top">

@@ -1,5 +1,5 @@
 import mainImage from "../../assets/cell-powered/fullScreen.png"
-import Dark1 from "../../assets/cell-powered/background-solo/Dark1.png"
+import Dark1 from "../../assets/cell-powered/background-solo/Test1.png"
 import Dark2 from "../../assets/cell-powered/background-solo/Dark2.png"
 import Dark3 from "../../assets/cell-powered/background-solo/Dark3.png"
 import Dark4 from "../../assets/cell-powered/background-solo/Dark4.png"
@@ -14,61 +14,83 @@ export default function Content() {
    return (
       <div className="gap-10 max-w-4xl mx-auto">
          <div className="grid grid-cols-1 gap-8 m-8">
-            <div>
-               <img src={mainImage} alt="Hero Image" className="rounded-box"></img>
-            </div>
-
             <div className="carousel rounded-box space-x-4 p-4 h-90 sm:h-120">
-               <div className="carousel-item">
+               <div className="carousel-item h-full">
                   <img
                      src={Dark1}
-                     className="rounded-box object-scale-down" />
+                     alt="Dark 1"
+                     className="rounded-box h-full"
+                     />
                </div>
-               <div className="carousel-item">
+
+               <div className="carousel-item h-full">
                   <img
                      src={Dark2}
-                     className="rounded-box object-scale-down" />
+                     alt="Dark 2"
+                     className="rounded-box h-full"
+                     />
                </div>
-               <div className="carousel-item">
+
+               <div className="carousel-item h-full">
                   <img
                      src={Dark3}
-                     className="rounded-box" />
+                     alt="Dark 3"
+                     className="rounded-box h-full"
+                     />
                </div>
-               <div className="carousel-item">
+               <div className="carousel-item h-full">
                   <img
                      src={Dark4}
-                     className="rounded-box" />
+                     alt="Dark 4"
+                     className="rounded-box h-full"
+                     />
                </div>
-               <div className="carousel-item">
+               <div className="carousel-item h-full">
                   <img
                      src={Dark5}
-                     className="rounded-box" />
+                     alt="Dark 5"
+                     className="rounded-box h-full"
+                     />
                </div>
-               <div className="carousel-item">
+               <div className="carousel-item h-full">
                   <img
                      src={Light1}
-                     className="rounded-box" />
+                     alt="Light 1"
+                     className="rounded-box h-full"
+                     />
                </div>
-               <div className="carousel-item">
+               <div className="carousel-item h-full">
                   <img
                      src={Light2}
-                     className="rounded-box" />
+                     alt="Light 2"
+                     className="rounded-box h-full"
+                     />
                </div>
-               <div className="carousel-item">
+               <div className="carousel-item h-full">
                   <img
                      src={Light3}
-                     className="rounded-box" />
+                     alt="Light 3"
+                     className="rounded-box h-full"
+                     />
                </div>
-               <div className="carousel-item">
+               <div className="carousel-item h-full">
                   <img
                      src={Light4}
-                     className="rounded-box" />
+                     alt="Light 4"
+                     className="rounded-box h-full"
+                     />
                </div>
-               <div className="carousel-item">
+               <div className="carousel-item h-full">
                   <img
                      src={Light5}
-                     className="rounded-box" />
+                     alt="Light 5"
+                     className="rounded-box h-full"
+                     />
                </div>
+            </div>
+
+            <div>
+               <img src={mainImage} alt="Hero Image" className="rounded-box"></img>
             </div>
          </div>
       </div>
