@@ -14,7 +14,7 @@ export default function Hero() {
             Cell Powered
          </h1>
          <h3 className="text-xl opacity-70 text-center">
-            Keep an eye on your MacBook's battery – in style.
+            Track your battery health, charge history, source details, and more... all right from your menu bar.
          </h3>
 
          <a
