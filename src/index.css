@@ -1,37 +1,39 @@
 @import "tailwindcss";
 @plugin "daisyui" {
-   themes: dark --prefersdark;
-   exclude: rootcolor;
+	themes: dark --prefersdark;
+	exclude: rootcolor;
 }
 
-
 @layer base {
-   html,
-   body {
-      @apply overscroll-x-none;
-      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", system-ui, sans-serif;
-   }
+	html,
+	body {
+		@apply overscroll-x-none;
+		font-family:
+			-apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+			system-ui, sans-serif;
+	}
 }
 
 @layer utilities {
-   @media (min-width: 640px) {
-      .grain {
-         background-color: #66666e;
-         position: relative;
-      }
-      .grain:after {
-         inset: -50%;
-         background-image: url("assets/noise.svg");
-         content: "";
-         background-repeat: repeat;
-         opacity: 0.15;
-         position: fixed;
-         pointer-events: none;
-         z-index: 9999;
-      }
-   }
+	@media (min-width: 640px) {
+		.grain {
+			background-color: #66666e;
+			position: relative;
+		}
+		.grain:after {
+			inset: -50%;
+			background-image: url("assets/noise.svg");
+			content: "";
+			background-repeat: repeat;
+			opacity: 0.1;
+			position: fixed;
+			pointer-events: none;
+			z-index: 9999;
+		}
+	}
 }
 
 @theme {
-   --color-apple-green: #31D158
+	--color-apple-green: #31d158;
+	--color-dim-white: #e5e5e5;
 }
