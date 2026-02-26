@@ -1,3 +1,3 @@
-# RNG Portfolio & Cell Powered Product Page
+# RNG Portfolio
 
 #### Built with React (Tailwind CSS & DaisyUI)
