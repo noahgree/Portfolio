@@ -28,11 +28,11 @@ export const projects = [
    },
    {
       title: "Cell Powered",
-      description: "Stylized battery monitoring app that lives in your MacOS menubar. Built using SwiftUI for a native experience.",
+      description: "Stylized battery monitoring app that lives in your MacOS menubar. Built using SwiftUI for a native experience. Product site created with React.",
       tech: ["Swift", "Xcode"],
       imageSrc: "",
       links: {
-         product: "/cell-powered"
+         product: "https://www.cellpowered.app"
       },
    },
    {
@@ -55,7 +55,7 @@ export const projects = [
    },
    {
       title: "This Site",
-      description: "My project and education portfolio. This site also hosts the product page for my MacOS Menubar app (seen above).",
+      description: "My project and education portfolio.",
       tech: ["React", "Tailwind", "DasiyUI"],
       imageSrc: "",
       links: {
