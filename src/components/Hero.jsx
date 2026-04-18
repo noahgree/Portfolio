@@ -18,7 +18,7 @@ export default function Hero() {
 					<div>
 						<h1 className="text-4xl font-bold">Richard "Noah" Greene</h1>
 						<p className="my-3 max-w-2xl opacity-80">
-							Software Engineer • BSCS Candidate (2026) from Georgia Tech
+							Software Engineer • BSCS from Georgia Tech
 						</p>
 						<div className="flex flex-wrap gap-3">
 							<a
