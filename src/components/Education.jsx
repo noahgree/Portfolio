@@ -6,7 +6,7 @@ export default function Education() {
 				<div className="card-body">
 					<h3 className="card-title">The Georgia Institute of Technology</h3>
 					<p className="mb-6 opacity-80 grow-0">
-						Bachelor's of Science in Computer Science (Candidate for May 2026)
+						Bachelor's of Science in Computer Science (May 2026)
 					</p>
 					<p className="card-title">Wheeler High School</p>
 					<p className="opacity-80 grow-0">Magnet Program (2022)</p>
