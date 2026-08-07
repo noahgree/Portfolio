@@ -1,5 +1,12 @@
 export const projects = [
    {
+      title: "Advancement Automation Platform (Google Sheets Extension)",
+      description: "A Google Apps Script sidebar that streamlines camp advancement coordination through roster management, reporting, awards tracking, and administrative workflows.",
+      tech: ["JavaScript", "Apps Script", "Google Sheets"],
+      imageSrc: "",
+      links: {},
+   },
+   {
       title: "ROTBTool (Desktop App)",
       description: "An end-to-end system that scans camper signup sheets, detects class barcodes, recognizes handwritten camper IDs, and automatically generates structured Excel schedules.",
       tech: ["Python", "PyTorch", "PyTesseract", "Pandas", "Tkinter"],

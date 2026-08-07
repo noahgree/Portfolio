@@ -1,5 +1,6 @@
 import Hero from "../components/Hero";
 import Education from "../components/Education";
+import Experience from "../components/Experience";
 import Projects from "../components/Projects";
 
 export default function Home() {
@@ -15,7 +16,11 @@ export default function Home() {
 						<Education />
 					</section>
 
-					<section id="projects" className="mx-auto max-w-4xl px-4 py-6">
+					<section id="experience" className="mx-auto max-w-4xl px-4 py-0">
+						<Experience />
+					</section>
+
+					<section id="projects" className="mx-auto max-w-4xl px-4 py-12">
 						<Projects />
 					</section>
 				</div>
