@@ -1,6 +1,6 @@
-import hmscImage from "../assets/hmsc.jpeg";
-import vipImage from "../assets/vip.jpeg";
-import targetImage from "../assets/target.jpeg";
+import hmscImage from "../assets/hmsc_wide.jpeg";
+import vipImage from "../assets/vip_wide.jpeg";
+import targetImage from "../assets/target_wide.jpeg";
 
 export const experience = [
    {
